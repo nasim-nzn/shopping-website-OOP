@@ -31,7 +31,7 @@ class Products {
     const { id, name, price } = data;
 
     const infoJSX = `
-         <div>
+         <div id="product-info">
              <h3>${name}</h3>
              <div>
                 <span>${price}</span>  
@@ -42,6 +42,8 @@ class Products {
 
     return infoJSX;
   }
+
+  
 }
 
 export default Products;
